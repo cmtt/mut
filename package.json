@@ -1,0 +1,20 @@
+{
+  "name": "Mut",
+  "version": "1.0.0",
+  "description": "A simple mutator",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@hector:mut"
+  },
+  "author": "Matthias Thoemmes <git@gmx.org>",
+  "license": "MIT",
+  "dependencies": {
+    "Ev": "git+https://github.com/cmtt/Ev",
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0"
+  }
+}

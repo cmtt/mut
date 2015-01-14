@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json Mut@1.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/m/Source/OnGitHub/Mut',
+6 verbose install   [ 'Ev', 'gulp', 'gulp-mocha' ] ]
+7 info preinstall Mut@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'Ev@git+https://https://github.com/cmtt/Ev', null ]
+10 verbose cache add name=undefined spec="Ev@git+https://https://github.com/cmtt/Ev" args=["Ev@git+https://https://github.com/cmtt/Ev",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'Ev@git+https://https://github.com/cmtt/Ev',
+11 verbose parsed url   path: 'Ev@git+https://https://github.com/cmtt/Ev',
+11 verbose parsed url   href: 'Ev@git+https://https://github.com/cmtt/Ev' }
+12 verbose cache add [ 'gulp@^3.8.10', null ]
+13 verbose cache add name=undefined spec="gulp@^3.8.10" args=["gulp@^3.8.10",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'gulp@^3.8.10',
+14 verbose parsed url   path: 'gulp@^3.8.10',
+14 verbose parsed url   href: 'gulp@^3.8.10' }
+15 verbose cache add name="Ev" spec="git+https://https://github.com/cmtt/Ev" args=["Ev","git+https://https://github.com/cmtt/Ev"]
+16 verbose parsed url { protocol: 'git+https:',
+16 verbose parsed url   slashes: true,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: 'https',
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: 'https',
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '//github.com/cmtt/Ev',
+16 verbose parsed url   path: '//github.com/cmtt/Ev',
+16 verbose parsed url   href: 'git+https://https//github.com/cmtt/Ev' }
+17 verbose cache add [ 'gulp-mocha@^2.0.0', null ]
+18 verbose cache add name=undefined spec="gulp-mocha@^2.0.0" args=["gulp-mocha@^2.0.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-mocha@^2.0.0',
+19 verbose parsed url   path: 'gulp-mocha@^2.0.0',
+19 verbose parsed url   href: 'gulp-mocha@^2.0.0' }
+20 verbose cache add name="gulp" spec="^3.8.10" args=["gulp","^3.8.10"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^3.8.10',
+21 verbose parsed url   path: '^3.8.10',
+21 verbose parsed url   href: '^3.8.10' }
+22 verbose addNamed [ 'gulp', '^3.8.10' ]
+23 verbose addNamed [ null, '>=3.8.10-0 <4.0.0-0' ]
+24 silly lockFile 3d6d0f4e-https-https-github-com-cmtt-Ev https://https://github.com/cmtt/Ev
+25 verbose lock https://https://github.com/cmtt/Ev /home/m/.npm/3d6d0f4e-https-https-github-com-cmtt-Ev.lock
+26 silly lockFile 25b88f7b-gulp-3-8-10 gulp@^3.8.10
+27 verbose lock gulp@^3.8.10 /home/m/.npm/25b88f7b-gulp-3-8-10.lock
+28 verbose cache add name="gulp-mocha" spec="^2.0.0" args=["gulp-mocha","^2.0.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^2.0.0',
+29 verbose parsed url   path: '^2.0.0',
+29 verbose parsed url   href: '^2.0.0' }
+30 verbose addNamed [ 'gulp-mocha', '^2.0.0' ]
+31 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+32 silly lockFile a8a36098-gulp-mocha-2-0-0 gulp-mocha@^2.0.0
+33 verbose lock gulp-mocha@^2.0.0 /home/m/.npm/a8a36098-gulp-mocha-2-0-0.lock
+34 verbose addRemoteGit [ 'https://https://github.com/cmtt/Ev', 'master' ]
+35 silly addNameRange { name: 'gulp', range: '>=3.8.10-0 <4.0.0-0', hasData: false }
+36 silly addNameRange { name: 'gulp-mocha',
+36 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+36 silly addNameRange   hasData: false }
+37 verbose request where is /gulp
+38 verbose request registry https://registry.npmjs.org/
+39 verbose request id 3fca656c67a1b270
+40 verbose url raw /gulp
+41 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+42 verbose url resolved https://registry.npmjs.org/gulp
+43 verbose request where is https://registry.npmjs.org/gulp
+44 info trying registry request attempt 1 at 17:47:05
+45 verbose etag "6TTCX64EF8CXRF35JVU7205FC"
+46 http GET https://registry.npmjs.org/gulp
+47 verbose request where is /gulp-mocha
+48 verbose request registry https://registry.npmjs.org/
+49 verbose url raw /gulp-mocha
+50 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-mocha' ]
+51 verbose url resolved https://registry.npmjs.org/gulp-mocha
+52 verbose request where is https://registry.npmjs.org/gulp-mocha
+53 info trying registry request attempt 1 at 17:47:05
+54 verbose etag "EF53MKU3T8BRTFHLNOHA7SQ1A"
+55 http GET https://registry.npmjs.org/gulp-mocha
+56 error git clone https://https://github.com/cmtt/Ev Cloning into bare repository '/home/m/.npm/_git-remotes/https-https-github-com-cmtt-Ev-3d6d0f4e'...
+56 error git clone https://https://github.com/cmtt/Ev fatal: unable to access 'https://https://github.com/cmtt/Ev/': Could not resolve host: https
+57 silly lockFile 3d6d0f4e-https-https-github-com-cmtt-Ev https://https://github.com/cmtt/Ev
+58 silly lockFile 3d6d0f4e-https-https-github-com-cmtt-Ev https://https://github.com/cmtt/Ev
+59 http 304 https://registry.npmjs.org/gulp
+60 silly registry.get cb [ 304,
+60 silly registry.get   { date: 'Wed, 14 Jan 2015 16:47:06 GMT',
+60 silly registry.get     server: 'Apache',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     'last-modified': 'Wed, 14 Jan 2015 16:47:06 GMT',
+60 silly registry.get     'cache-control': 'max-age=60',
+60 silly registry.get     etag: '"6TTCX64EF8CXRF35JVU7205FC"',
+60 silly registry.get     age: '53',
+60 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+60 silly registry.get     'x-cache': 'HIT',
+60 silly registry.get     'x-cache-hits': '1',
+60 silly registry.get     'x-timer': 'S1421254026.055074,VS0,VE0',
+60 silly registry.get     vary: 'Accept',
+60 silly registry.get     'content-length': '0',
+60 silly registry.get     'keep-alive': 'timeout=10, max=50',
+60 silly registry.get     connection: 'Keep-Alive' } ]
+61 verbose etag https://registry.npmjs.org/gulp from cache
+62 silly addNameRange number 2 { name: 'gulp', range: '>=3.8.10-0 <4.0.0-0', hasData: true }
+63 silly addNameRange versions [ 'gulp',
+63 silly addNameRange   [ '0.0.1',
+63 silly addNameRange     '0.0.2',
+63 silly addNameRange     '0.0.3',
+63 silly addNameRange     '0.0.4',
+63 silly addNameRange     '0.0.5',
+63 silly addNameRange     '0.0.7',
+63 silly addNameRange     '0.0.8',
+63 silly addNameRange     '0.0.9',
+63 silly addNameRange     '0.1.0',
+63 silly addNameRange     '0.2.0',
+63 silly addNameRange     '1.0.0',
+63 silly addNameRange     '1.1.0',
+63 silly addNameRange     '1.2.0',
+63 silly addNameRange     '1.2.1',
+63 silly addNameRange     '2.0.0',
+63 silly addNameRange     '2.0.1',
+63 silly addNameRange     '2.1.0',
+63 silly addNameRange     '2.2.0',
+63 silly addNameRange     '2.3.0',
+63 silly addNameRange     '2.4.0',
+63 silly addNameRange     '2.4.1',
+63 silly addNameRange     '2.6.0',
+63 silly addNameRange     '2.6.1',
+63 silly addNameRange     '2.7.0',
+63 silly addNameRange     '3.0.0',
+63 silly addNameRange     '3.1.1',
+63 silly addNameRange     '3.1.2',
+63 silly addNameRange     '3.1.3',
+63 silly addNameRange     '3.1.4',
+63 silly addNameRange     '3.2.0',
+63 silly addNameRange     '3.2.1',
+63 silly addNameRange     '3.2.2',
+63 silly addNameRange     '3.2.3',
+63 silly addNameRange     '3.2.4',
+63 silly addNameRange     '3.2.5',
+63 silly addNameRange     '3.3.0',
+63 silly addNameRange     '3.3.1',
+63 silly addNameRange     '3.3.2',
+63 silly addNameRange     '3.3.4',
+63 silly addNameRange     '3.4.0',
+63 silly addNameRange     '3.5.0',
+63 silly addNameRange     '3.5.1',
+63 silly addNameRange     '3.5.2',
+63 silly addNameRange     '3.5.5',
+63 silly addNameRange     '3.5.6',
+63 silly addNameRange     '3.6.0',
+63 silly addNameRange     '3.6.1',
+63 silly addNameRange     '3.6.2',
+63 silly addNameRange     '3.7.0',
+63 silly addNameRange     '3.8.0',
+63 silly addNameRange     '3.8.1',
+63 silly addNameRange     '3.8.2',
+63 silly addNameRange     '3.8.3',
+63 silly addNameRange     '3.8.4',
+63 silly addNameRange     '3.8.5',
+63 silly addNameRange     '3.8.6',
+63 silly addNameRange     '3.8.7',
+63 silly addNameRange     '3.8.8',
+63 silly addNameRange     '3.8.9',
+63 silly addNameRange     '3.8.10' ] ]
+64 verbose addNamed [ 'gulp', '3.8.10' ]
+65 verbose addNamed [ '3.8.10', '3.8.10' ]
+66 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+67 verbose lock gulp@3.8.10 /home/m/.npm/f843d0d7-gulp-3-8-10.lock
+68 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+69 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+70 silly lockFile 25b88f7b-gulp-3-8-10 gulp@^3.8.10
+71 silly lockFile 25b88f7b-gulp-3-8-10 gulp@^3.8.10
+72 http 304 https://registry.npmjs.org/gulp-mocha
+73 silly registry.get cb [ 304,
+73 silly registry.get   { date: 'Wed, 14 Jan 2015 16:47:06 GMT',
+73 silly registry.get     server: 'Apache',
+73 silly registry.get     via: '1.1 varnish',
+73 silly registry.get     'last-modified': 'Wed, 14 Jan 2015 16:47:06 GMT',
+73 silly registry.get     'cache-control': 'max-age=60',
+73 silly registry.get     etag: '"EF53MKU3T8BRTFHLNOHA7SQ1A"',
+73 silly registry.get     age: '0',
+73 silly registry.get     'x-served-by': 'cache-fra1245-FRA',
+73 silly registry.get     'x-cache': 'HIT',
+73 silly registry.get     'x-cache-hits': '1',
+73 silly registry.get     'x-timer': 'S1421254026.074687,VS0,VE169',
+73 silly registry.get     vary: 'Accept',
+73 silly registry.get     'content-length': '0',
+73 silly registry.get     'keep-alive': 'timeout=10, max=50',
+73 silly registry.get     connection: 'Keep-Alive' } ]
+74 verbose etag https://registry.npmjs.org/gulp-mocha from cache
+75 silly addNameRange number 2 { name: 'gulp-mocha',
+75 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+75 silly addNameRange   hasData: true }
+76 silly addNameRange versions [ 'gulp-mocha',
+76 silly addNameRange   [ '0.1.0',
+76 silly addNameRange     '0.1.1',
+76 silly addNameRange     '0.1.2',
+76 silly addNameRange     '0.1.3',
+76 silly addNameRange     '0.2.0',
+76 silly addNameRange     '0.3.0',
+76 silly addNameRange     '0.4.0',
+76 silly addNameRange     '0.4.1',
+76 silly addNameRange     '0.5.0',
+76 silly addNameRange     '0.5.1',
+76 silly addNameRange     '0.5.2',
+76 silly addNameRange     '1.0.0',
+76 silly addNameRange     '1.1.0',
+76 silly addNameRange     '1.1.1',
+76 silly addNameRange     '1.1.2',
+76 silly addNameRange     '2.0.0' ] ]
+77 verbose addNamed [ 'gulp-mocha', '2.0.0' ]
+78 verbose addNamed [ '2.0.0', '2.0.0' ]
+79 silly lockFile 2ef58e4f-gulp-mocha-2-0-0 gulp-mocha@2.0.0
+80 verbose lock gulp-mocha@2.0.0 /home/m/.npm/2ef58e4f-gulp-mocha-2-0-0.lock
+81 silly lockFile 2ef58e4f-gulp-mocha-2-0-0 gulp-mocha@2.0.0
+82 silly lockFile 2ef58e4f-gulp-mocha-2-0-0 gulp-mocha@2.0.0
+83 silly lockFile a8a36098-gulp-mocha-2-0-0 gulp-mocha@^2.0.0
+84 silly lockFile a8a36098-gulp-mocha-2-0-0 gulp-mocha@^2.0.0
+85 error Error: Command failed: Cloning into bare repository '/home/m/.npm/_git-remotes/https-https-github-com-cmtt-Ev-3d6d0f4e'...
+85 error fatal: unable to access 'https://https://github.com/cmtt/Ev/': Could not resolve host: https
+85 error
+85 error     at ChildProcess.exithandler (child_process.js:648:15)
+85 error     at ChildProcess.emit (events.js:98:17)
+85 error     at maybeClose (child_process.js:756:16)
+85 error     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+86 error If you need help, you may report this *entire* log,
+86 error including the npm and node versions, at:
+86 error     <http://github.com/npm/npm/issues>
+87 error System Linux 3.16.0-28-generic
+88 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+89 error cwd /home/m/Source/OnGitHub/Mut
+90 error node -v v0.10.32
+91 error npm -v 1.4.28
+92 error code 128
+93 verbose exit [ 1, true ]
