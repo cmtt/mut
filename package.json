@@ -1,11 +1,11 @@
 {
   "name": "mut",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "A simple mutator module",
   "main": "lib/index.js",
   "scripts": {
     "test": "semistandard lib && mocha test",
-    "postinstall": "webpack"
+    "postinstall": "node_modules/.bin/webpack -p webpack.config.js"
   },
   "author": "Matthias Thoemmes <git@gmx.org>",
   "license": "MIT",
@@ -20,3 +20,4 @@
     "webpack": "^1.12.11"
   }
 }
+
