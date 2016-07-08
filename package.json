@@ -1,22 +1,23 @@
 {
   "name": "mut",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "A simple mutator module",
   "main": "lib/index.js",
   "scripts": {
     "test": "semistandard lib && mocha test",
-    "postinstall": "webpack"
+    "postinstall": "node_modules/.bin/webpack -p webpack.config.js"
   },
   "author": "Matthias Thoemmes <git@gmx.org>",
   "license": "MIT",
   "dependencies": {
     "deep-equal": "^1.0.1",
-    "object-assign": "^4.0.1"
+    "object-assign": "^4.0.1",
+    "webpack": "^1.12.11"
   },
   "devDependencies": {
     "event-emitter": "^0.3.4",
     "mocha": "^2.3.4",
-    "semistandard": "^8.0.0",
-    "webpack": "^1.12.11"
+    "semistandard": "^8.0.0"
   }
 }
+
