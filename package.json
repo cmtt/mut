@@ -1,6 +1,6 @@
 {
   "name": "mut",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "A simple mutator module",
   "main": "lib/index.js",
   "scripts": {
